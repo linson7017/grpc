@@ -23,7 +23,7 @@ def get_github_repo(lang):
         'java': 'https://github.com/grpc/grpc-java.git',
         'node': 'https://github.com/grpc/grpc-node.git',
         # all other languages use the grpc.git repo.
-    }.get(lang, 'https://github.com/grpc/grpc.git')
+    }.get(lang, 'https://github.com/linson7017/grpc.git')
 
 
 def get_release_tags(lang):

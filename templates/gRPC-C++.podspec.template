@@ -141,7 +141,7 @@
     grpc_version = '${settings.version}'
 
     s.source = {
-      :git => 'https://github.com/grpc/grpc.git',
+      :git => 'https://github.com/linson7017/grpc.git',
       :tag => "v#{grpc_version}",
     }
 

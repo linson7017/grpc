@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.authors  = { 'gRPC contributors' => 'grpc-io@googlegroups.com' }
   s.homepage = "https://grpc.io/"
   s.summary = "RemoteTest example"
-  s.source = { :git => 'https://github.com/grpc/grpc.git' }
+  s.source = { :git => 'https://github.com/linson7017/grpc.git' }
 
   s.ios.deployment_target = '7.1'
   s.osx.deployment_target = '10.9'

@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
   libgtest-dev \
   && apt-get clean
 
-RUN git clone --recursive https://github.com/grpc/grpc.git
+RUN git clone --recursive https://github.com/linson7017/grpc.git
 
 EXPOSE 8181
 
